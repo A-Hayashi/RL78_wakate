@@ -13,7 +13,6 @@
 extern unsigned char flag;
 
 #pragma interrupt INT_P0(vect=INTP0)
-void INT_P0 (void)
-{
-  flag=!flag;                          // フラグ反転
+void INT_P0(void) {
+  flag = !flag;  // フラグ反転
 }

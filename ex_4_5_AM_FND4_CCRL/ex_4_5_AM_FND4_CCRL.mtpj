@@ -10,38 +10,59 @@
       <Property>fb98844b-2c27-4275-9804-f6e63e204da0</Property>
       <ActiveProjectGuid>3db7b546-7f20-4013-8dfe-d5c221a16d8d</ActiveProjectGuid>
     </Instance>
-    <Instance Guid="d7106066-3ce5-4974-a053-cf861109a621">
+    <Instance Guid="70ef20b0-db34-4a33-ab74-b3986b9aabe7">
+      <Name>hardware_setup.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\hardware_setup.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
+    </Instance>
+    <Instance Guid="76016b14-c32c-4315-993b-5bf73098f277">
+      <Name>hdwinit.asm</Name>
+      <Type>File</Type>
+      <RelativePath>src\hdwinit.asm</RelativePath>
+      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
+      <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
+    </Instance>
+    <Instance Guid="68dc4d9d-ab63-4427-b029-007b5e364316">
+      <Name>interrupt_handlers.c</Name>
+      <Type>File</Type>
+      <RelativePath>src\interrupt_handlers.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
+    </Instance>
+    <Instance Guid="1383ed1c-1d56-4c51-a7ea-f55c05cea016">
       <Name>iodefine.h</Name>
       <Type>File</Type>
       <RelativePath>src\iodefine.h</RelativePath>
       <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
       <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
     </Instance>
-    <Instance Guid="827e6fb9-2efc-4aff-a351-4bca0138663d">
+    <Instance Guid="cb0f5074-d849-47e6-b894-8cbb94da4c99">
+      <Name>macrodriver.h</Name>
+      <Type>File</Type>
+      <RelativePath>src\macrodriver.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
+    </Instance>
+    <Instance Guid="147d4d3e-1659-4aa2-893b-c3654d7fc5ec">
       <Name>main.c</Name>
       <Type>File</Type>
       <RelativePath>src\main.c</RelativePath>
       <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
       <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
     </Instance>
-    <Instance Guid="76847391-c9ce-44ad-942e-af88784eaea8">
+    <Instance Guid="44f91151-8432-4709-aad2-e5c052e39e41">
       <Name>stkinit.asm</Name>
       <Type>File</Type>
       <RelativePath>src\stkinit.asm</RelativePath>
       <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
       <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
     </Instance>
-    <Instance Guid="6211d7d6-ea0f-49cd-a915-167faa607a68">
+    <Instance Guid="7706aa37-9582-42e7-9886-895fe6abbb73">
       <Name>cstart.asm</Name>
       <Type>File</Type>
       <RelativePath>src\cstart.asm</RelativePath>
-      <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
-      <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
-    </Instance>
-    <Instance Guid="d26d3a85-6ad5-4514-afdb-71bcd65d05c2">
-      <Name>hdwinit.asm</Name>
-      <Type>File</Type>
-      <RelativePath>src\hdwinit.asm</RelativePath>
       <TreeImageGuid>f654126d-e7ad-426d-be34-8455271d959b</TreeImageGuid>
       <ParentItem>c755420a-66d8-4950-bed4-b452d6493e41</ParentItem>
     </Instance>
@@ -90,15 +111,19 @@
       <BuildMode0>RABlAGYAYQB1AGwAdABCAHUAaQBsAGQA</BuildMode0>
       <BatchBuildFlag0>False</BatchBuildFlag0>
       <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
-      <SourceItemGuid0>827e6fb9-2efc-4aff-a351-4bca0138663d</SourceItemGuid0>
+      <SourceItemGuid0>70ef20b0-db34-4a33-ab74-b3986b9aabe7</SourceItemGuid0>
       <SourceItemType0>CSource</SourceItemType0>
-      <SourceItemGuid1>76847391-c9ce-44ad-942e-af88784eaea8</SourceItemGuid1>
+      <SourceItemGuid1>76016b14-c32c-4315-993b-5bf73098f277</SourceItemGuid1>
       <SourceItemType1>AsmSource</SourceItemType1>
-      <SourceItemGuid2>6211d7d6-ea0f-49cd-a915-167faa607a68</SourceItemGuid2>
-      <SourceItemType2>AsmSource</SourceItemType2>
-      <SourceItemGuid3>d26d3a85-6ad5-4514-afdb-71bcd65d05c2</SourceItemGuid3>
-      <SourceItemType3>AsmSource</SourceItemType3>
-      <SourceItemCount>4</SourceItemCount>
+      <SourceItemGuid2>68dc4d9d-ab63-4427-b029-007b5e364316</SourceItemGuid2>
+      <SourceItemType2>CSource</SourceItemType2>
+      <SourceItemGuid3>147d4d3e-1659-4aa2-893b-c3654d7fc5ec</SourceItemGuid3>
+      <SourceItemType3>CSource</SourceItemType3>
+      <SourceItemGuid4>44f91151-8432-4709-aad2-e5c052e39e41</SourceItemGuid4>
+      <SourceItemType4>AsmSource</SourceItemType4>
+      <SourceItemGuid5>7706aa37-9582-42e7-9886-895fe6abbb73</SourceItemGuid5>
+      <SourceItemType5>AsmSource</SourceItemType5>
+      <SourceItemCount>6</SourceItemCount>
       <LastDeviceChangedCounter>1</LastDeviceChangedCounter>
     </Instance>
     <Instance Guid="6bb7060d-7e24-4135-bd9b-7db166417523">
@@ -455,7 +480,7 @@
       <LinkOptionShowCFI-DefaultValue>False</LinkOptionShowCFI-DefaultValue>
       <LinkOptionRrmValue-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8586231205862340804</TimeTagModified--0>
+      <TimeTagModified--0>-8586231216590800787</TimeTagModified--0>
       <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
       <LinkOptionCpu-0>False</LinkOptionCpu-0>
       <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
@@ -646,7 +671,7 @@
       <LibOptionChangeMessageError-DefaultValue>None</LibOptionChangeMessageError-DefaultValue>
       <LibOptionChangeMessageErrorNumber-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8586232187942132522</TimeTagModified--0>
+      <TimeTagModified--0>-8586231936804728906</TimeTagModified--0>
       <LibOptionDebug-0>Debug</LibOptionDebug-0>
       <LibOptionForm-0>LibraryU</LibOptionForm-0>
       <LibOptionInput-0 />
@@ -713,45 +738,65 @@
     <Instance Guid="e91fe8e5-b290-408c-ab35-0cc6a003a754">
       <LinkOrder-0>3</LinkOrder-0>
     </Instance>
-    <Instance Guid="d7106066-3ce5-4974-a053-cf861109a621">
-      <ItemAddTime>637140173015437910</ItemAddTime>
-      <ItemAddTimeCount>0</ItemAddTimeCount>
-    </Instance>
-    <Instance Guid="827e6fb9-2efc-4aff-a351-4bca0138663d">
-      <ItemAddTime>637140173015437910</ItemAddTime>
-      <ItemAddTimeCount>1</ItemAddTimeCount>
-    </Instance>
-    <Instance Guid="76847391-c9ce-44ad-942e-af88784eaea8">
-      <ItemAddTime>637140173015437910</ItemAddTime>
-      <ItemAddTimeCount>2</ItemAddTimeCount>
-    </Instance>
-    <Instance Guid="6211d7d6-ea0f-49cd-a915-167faa607a68">
-      <ItemAddTime>637140173015437910</ItemAddTime>
-      <ItemAddTimeCount>3</ItemAddTimeCount>
-    </Instance>
-    <Instance Guid="d26d3a85-6ad5-4514-afdb-71bcd65d05c2">
-      <ItemAddTime>637140173015437910</ItemAddTime>
+    <Instance Guid="cb0f5074-d849-47e6-b894-8cbb94da4c99">
+      <ItemAddTime>637140424102656753</ItemAddTime>
       <ItemAddTimeCount>4</ItemAddTimeCount>
     </Instance>
+    <Instance Guid="1383ed1c-1d56-4c51-a7ea-f55c05cea016">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>3</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="68dc4d9d-ab63-4427-b029-007b5e364316">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="76016b14-c32c-4315-993b-5bf73098f277">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="70ef20b0-db34-4a33-ab74-b3986b9aabe7">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="147d4d3e-1659-4aa2-893b-c3654d7fc5ec">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>5</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="44f91151-8432-4709-aad2-e5c052e39e41">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>6</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="7706aa37-9582-42e7-9886-895fe6abbb73">
+      <ItemAddTime>637140424102656753</ItemAddTime>
+      <ItemAddTimeCount>7</ItemAddTimeCount>
+    </Instance>
     <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
-      <TimeTagModified-SourceItem0--0>-8586232187839337898</TimeTagModified-SourceItem0--0>
+      <TimeTagModified-SourceItem0--0>-8586231936752119055</TimeTagModified-SourceItem0--0>
       <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
       <SourceItem0-BuildingTarget-0>True</SourceItem0-BuildingTarget-0>
       <SourceItem0-IndividualCompileOption-0>False</SourceItem0-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem2--0>-8586231936752109036</TimeTagModified-SourceItem2--0>
+      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
+      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
+      <SourceItem2-IndividualCompileOption-0>False</SourceItem2-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem3--0>-8586231936752109036</TimeTagModified-SourceItem3--0>
+      <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
+      <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
+      <SourceItem3-IndividualCompileOption-0>False</SourceItem3-IndividualCompileOption-0>
     </Instance>
     <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
-      <TimeTagModified-SourceItem1--0>-8586232187839337898</TimeTagModified-SourceItem1--0>
+      <TimeTagModified-SourceItem1--0>-8586231936752109036</TimeTagModified-SourceItem1--0>
       <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
       <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
       <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem2--0>-8586232187839328247</TimeTagModified-SourceItem2--0>
-      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
-      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
-      <SourceItem2-IndividualAssembleOption-0>False</SourceItem2-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem3--0>-8586232187839328247</TimeTagModified-SourceItem3--0>
-      <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
-      <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
-      <SourceItem3-IndividualAssembleOption-0>False</SourceItem3-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem4--0>-8586231936752109036</TimeTagModified-SourceItem4--0>
+      <SourceItem4-IsLockedByUser>False</SourceItem4-IsLockedByUser>
+      <SourceItem4-BuildingTarget-0>True</SourceItem4-BuildingTarget-0>
+      <SourceItem4-IndividualAssembleOption-0>False</SourceItem4-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem5--0>-8586231936752109036</TimeTagModified-SourceItem5--0>
+      <SourceItem5-IsLockedByUser>False</SourceItem5-IsLockedByUser>
+      <SourceItem5-BuildingTarget-0>True</SourceItem5-BuildingTarget-0>
+      <SourceItem5-IndividualAssembleOption-0>False</SourceItem5-IndividualAssembleOption-0>
     </Instance>
   </Class>
   <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
@@ -1246,7 +1291,7 @@
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DebuggerGuid />
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>True</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-IsDefaultItem>
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>3db7b546-7f20-4013-8dfe-d5c221a16d8d</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-DefaultItemProjectGuid>
-      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\ex_4_2_SW_Input_CCRL.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
+      <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>DefaultBuild\ex_4_5_AM_FND4_CCRL.abs</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileName>
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>LoadModuleFile</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-FileType>
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>Auto</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-CompilerType>
       <DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>0</DebuggerProperty-DownloadProperty-DebugInformation-DownloadFiles-DownloadItem0-Offset>
@@ -1610,8 +1655,8 @@
     &lt;TRD0_INTP0 Name="TRD0_INTP0" Value="0" /&gt;
     &lt;TRD1_INTP0 Name="TRD1_INTP0" Value="0" /&gt;
     &lt;ELC_TARGET8 Name="ELC_TARGET8" Text="disable" /&gt;
-    &lt;ProjectName Name="PrjName" Text="ex_4_2_SW_Input_CCRL" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="C:\Users\Akinori\workspace\rl78_wakate\ex_4_2_SW_Input_CCRL" /&gt;
+    &lt;ProjectName Name="PrjName" Text="ex_4_5_AM_FND4_CCRL" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="C:\Users\Akinori\workspace\rl78_wakate\ex_4_5_AM_FND4_CCRL" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78G14" /&gt;
     &lt;CPUCoreType Name="CPUCoreType" Fixed="" Text="1" /&gt;
@@ -2936,22 +2981,22 @@
         &lt;cg_security7 Name="cg_security7" Value="00" /&gt;
         &lt;pior1_value Name="pior1_value" Value="00" /&gt;
         &lt;cg_security5 Name="cg_security5" Value="00" /&gt;
-        &lt;ocdstart Name="ocdstart" Value="3FE00" /&gt;
+        &lt;cg_crc_area Name="cg_crc_area" Value="00" /&gt;
         &lt;cg_security3 Name="cg_security3" Value="00" /&gt;
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
-        &lt;cg_crc_area Name="cg_crc_area" Value="00" /&gt;
         &lt;clock_option Name="clock_option" Value="F8" /&gt;
         &lt;pior_value Name="pior_value" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="04" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
         &lt;cg_security6 Name="cg_security6" Value="00" /&gt;
-        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
+        &lt;ocdstart Name="ocdstart" Value="3FE00" /&gt;
         &lt;cg_pms_value Name="cg_pms_value" Value="00" /&gt;
         &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
         &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
+        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
       &lt;/GlobleUserTag&gt;
     &lt;/TAG&gt;
   &lt;/DIR&gt;

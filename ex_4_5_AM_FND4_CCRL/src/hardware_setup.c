@@ -12,12 +12,23 @@
 #include "macrodriver.h"
 
 void HardwareSetup(void);
-
-//SW1:P137(INTP0)
+void InterruptInit(void);
+void TimerInit(void);
 
 void HardwareSetup(void) {
-  EGP0_bit.no0 = 1;  // 立ち上がりエッジ
-  EGN0_bit.no0 = 0;
-  PMK0 = 0;  // INT0マスククリア
+  DI();  // 割り込み禁止
+  TimerInit();  // タイマ初期化
+  InterruptInit();  // 割り込み初期化
+}
+
+void TimerInit(void) {
+  TAU0EN = 1;		// タイマ0クロック供給
+  TPS0 = 0x000a;	// 32MHz/2の10乗=31.25kHz
+  TMR00 = 0x00;  // CK00選択
+  TDR00 = 5 - 1;	// タイマデータ設定31.25kHz/5=6250Hz
+}
+
+void InterruptInit(void) {
+  TMMK00 = 0;  // タイマ00マスククリア
   EI();  // 割り込み許可
 }

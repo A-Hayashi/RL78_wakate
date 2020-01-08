@@ -35,6 +35,13 @@
 #ifndef __R5F100GEIODEFINE_HEADER__
 #define __R5F100GEIODEFINE_HEADER__
 
+#ifdef  __CDT_PARSER__
+#define __near
+#define __far
+#define __saddr
+#endif
+
+
 typedef struct
 {
     unsigned char no0:1;

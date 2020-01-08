@@ -111,18 +111,18 @@
       <BuildMode0>RABlAGYAYQB1AGwAdABCAHUAaQBsAGQA</BuildMode0>
       <BatchBuildFlag0>False</BatchBuildFlag0>
       <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
-      <SourceItemGuid0>a553f9d2-1e76-4076-9862-f4d87f1577d0</SourceItemGuid0>
-      <SourceItemType0>AsmSource</SourceItemType0>
-      <SourceItemGuid1>07a33ef3-5da7-4161-bc93-5b1bde28eb9c</SourceItemGuid1>
+      <SourceItemGuid0>840b0be0-47d7-4706-98c9-589c9e79d5b5</SourceItemGuid0>
+      <SourceItemType0>CSource</SourceItemType0>
+      <SourceItemGuid1>8ab06dd3-e77f-4efa-8916-c2fa1ca8dd7c</SourceItemGuid1>
       <SourceItemType1>AsmSource</SourceItemType1>
-      <SourceItemGuid2>470ab914-771d-44bc-bcce-8d6af4ef0a28</SourceItemGuid2>
+      <SourceItemGuid2>6108ef85-1ea7-4d53-9a0d-119b94ea2e3c</SourceItemGuid2>
       <SourceItemType2>CSource</SourceItemType2>
-      <SourceItemGuid3>6108ef85-1ea7-4d53-9a0d-119b94ea2e3c</SourceItemGuid3>
+      <SourceItemGuid3>470ab914-771d-44bc-bcce-8d6af4ef0a28</SourceItemGuid3>
       <SourceItemType3>CSource</SourceItemType3>
-      <SourceItemGuid4>8ab06dd3-e77f-4efa-8916-c2fa1ca8dd7c</SourceItemGuid4>
+      <SourceItemGuid4>07a33ef3-5da7-4161-bc93-5b1bde28eb9c</SourceItemGuid4>
       <SourceItemType4>AsmSource</SourceItemType4>
-      <SourceItemGuid5>840b0be0-47d7-4706-98c9-589c9e79d5b5</SourceItemGuid5>
-      <SourceItemType5>CSource</SourceItemType5>
+      <SourceItemGuid5>a553f9d2-1e76-4076-9862-f4d87f1577d0</SourceItemGuid5>
+      <SourceItemType5>AsmSource</SourceItemType5>
       <SourceItemCount>6</SourceItemCount>
       <LastDeviceChangedCounter>1</LastDeviceChangedCounter>
     </Instance>
@@ -480,7 +480,7 @@
       <LinkOptionShowCFI-DefaultValue>False</LinkOptionShowCFI-DefaultValue>
       <LinkOptionRrmValue-DefaultValue />
       <IsLockedByUser>False</IsLockedByUser>
-      <TimeTagModified--0>-8586231946343105361</TimeTagModified--0>
+      <TimeTagModified--0>-8586231223467412082</TimeTagModified--0>
       <LinkOptionAutoSectionLayout-0>True</LinkOptionAutoSectionLayout-0>
       <LinkOptionCpu-0>False</LinkOptionCpu-0>
       <LinkOptionDebug-0>Debug</LinkOptionDebug-0>
@@ -545,7 +545,7 @@
       <LinkOptionPostLinkCommands-0 />
       <LinkOptionShowTotalSize-0>False</LinkOptionShowTotalSize-0>
       <LinkOptionSymbolForbid-0 />
-      <LinkOptionUserOptByteValue-0 />
+      <LinkOptionUserOptByteValue-0>6012E8</LinkOptionUserOptByteValue-0>
       <LinkOptionCFIAddFunc-0 />
       <LinkOptionChangeMessageWarningNumber-0 />
       <LinkOptionOtherAdditionalOptions-0 />
@@ -770,21 +770,11 @@
       <ItemAddTime>637140414592456391</ItemAddTime>
       <ItemAddTimeCount>0</ItemAddTimeCount>
     </Instance>
-    <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
-      <TimeTagModified-SourceItem0--0>-8586231946262299370</TimeTagModified-SourceItem0--0>
+    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
+      <TimeTagModified-SourceItem0--0>-8586231946262319417</TimeTagModified-SourceItem0--0>
       <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
       <SourceItem0-BuildingTarget-0>True</SourceItem0-BuildingTarget-0>
-      <SourceItem0-IndividualAssembleOption-0>False</SourceItem0-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem1--0>-8586231946262299370</TimeTagModified-SourceItem1--0>
-      <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
-      <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
-      <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem4--0>-8586231946262309430</TimeTagModified-SourceItem4--0>
-      <SourceItem4-IsLockedByUser>False</SourceItem4-IsLockedByUser>
-      <SourceItem4-BuildingTarget-0>True</SourceItem4-BuildingTarget-0>
-      <SourceItem4-IndividualAssembleOption-0>False</SourceItem4-IndividualAssembleOption-0>
-    </Instance>
-    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
+      <SourceItem0-IndividualCompileOption-0>False</SourceItem0-IndividualCompileOption-0>
       <TimeTagModified-SourceItem2--0>-8586231946262309430</TimeTagModified-SourceItem2--0>
       <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
       <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
@@ -793,10 +783,20 @@
       <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
       <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
       <SourceItem3-IndividualCompileOption-0>False</SourceItem3-IndividualCompileOption-0>
-      <TimeTagModified-SourceItem5--0>-8586231946262319417</TimeTagModified-SourceItem5--0>
+    </Instance>
+    <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
+      <TimeTagModified-SourceItem1--0>-8586231946262309430</TimeTagModified-SourceItem1--0>
+      <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
+      <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
+      <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem4--0>-8586231946262299370</TimeTagModified-SourceItem4--0>
+      <SourceItem4-IsLockedByUser>False</SourceItem4-IsLockedByUser>
+      <SourceItem4-BuildingTarget-0>True</SourceItem4-BuildingTarget-0>
+      <SourceItem4-IndividualAssembleOption-0>False</SourceItem4-IndividualAssembleOption-0>
+      <TimeTagModified-SourceItem5--0>-8586231946262299370</TimeTagModified-SourceItem5--0>
       <SourceItem5-IsLockedByUser>False</SourceItem5-IsLockedByUser>
       <SourceItem5-BuildingTarget-0>True</SourceItem5-BuildingTarget-0>
-      <SourceItem5-IndividualCompileOption-0>False</SourceItem5-IndividualCompileOption-0>
+      <SourceItem5-IndividualAssembleOption-0>False</SourceItem5-IndividualAssembleOption-0>
     </Instance>
   </Class>
   <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
@@ -1320,8 +1320,8 @@
       <DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>Yes</DebuggerProperty-OptionalProperty-AccessMemory-UpdateDisplayInExecution>
       <DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>500</DebuggerProperty-OptionalProperty-AccessMemory-UpdateInterval>
       <DebuggerProperty-OptionalProperty-Break-BreakpointPriority>HardwareBreak</DebuggerProperty-OptionalProperty-Break-BreakpointPriority>
-      <DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>
-      <DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>No</DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>Yes</DebuggerProperty-OptionalProperty-Break-TimerPeripheralBreak>
+      <DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>Yes</DebuggerProperty-OptionalProperty-Break-SerialPeripheralBreak>
       <DebuggerProperty-OptionalProperty-Trace-UseTrace>No</DebuggerProperty-OptionalProperty-Trace-UseTrace>
       <DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>Nonstop</DebuggerProperty-OptionalProperty-Trace-TraceModeForOCD>
       <DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>Yes</DebuggerProperty-OptionalProperty-PinMask-TargetResetMask>
@@ -1343,7 +1343,6 @@
       <DebuggerProperty-HookProperty-HookTransaction-Broke-Length>0</DebuggerProperty-HookProperty-HookTransaction-Broke-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Connected-Length>0</DebuggerProperty-HookProperty-HookTransaction-Connected-Length>
       <DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>0</DebuggerProperty-HookProperty-HookTransaction-Disconnecting-Length>
-      <DebuggerProperty-EssentialProperty-EmulatorConnect-SerialNumber />
     </Instance>
   </Class>
   <Class Guid="9f7af90c-526c-4f28-af29-524df208b9e0">
@@ -1656,7 +1655,7 @@
     &lt;TRD1_INTP0 Name="TRD1_INTP0" Value="0" /&gt;
     &lt;ELC_TARGET8 Name="ELC_TARGET8" Text="disable" /&gt;
     &lt;ProjectName Name="PrjName" Text="ex_4_4_Timer_CCRL" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="C:\Users\Akinori\Desktop\新しいフォルダー\ex_4_4_Timer_CCRL" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="C:\Users\Akinori\workspace\rl78_wakate\ex_4_4_Timer_CCRL" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78G14" /&gt;
     &lt;CPUCoreType Name="CPUCoreType" Fixed="" Text="1" /&gt;
@@ -2986,16 +2985,16 @@
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
         &lt;clock_option Name="clock_option" Value="F8" /&gt;
-        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
+        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;pior_value Name="pior_value" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="04" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
         &lt;cg_security6 Name="cg_security6" Value="00" /&gt;
         &lt;ocdstart Name="ocdstart" Value="3FE00" /&gt;
         &lt;cg_pms_value Name="cg_pms_value" Value="00" /&gt;
-        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
+        &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
-        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
+        &lt;cg_security4 Name="cg_security4" Value="00" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
       &lt;/GlobleUserTag&gt;
     &lt;/TAG&gt;

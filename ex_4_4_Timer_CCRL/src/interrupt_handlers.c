@@ -12,7 +12,6 @@
 
 extern unsigned char portValue;
 #pragma interrupt INT_TM00(vect=INTTM00)
-void INT_TM00 (void)
-{
+void INT_TM00(void) {
   portValue++;                         // カウントアップ
 }

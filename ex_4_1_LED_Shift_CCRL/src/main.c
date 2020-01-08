@@ -10,35 +10,32 @@
 /***********************************************************************/
 #include "iodefine.h"
 
-void delay_ms(int ms)
-{
-	volatile int i;
-	volatile int j;
+void delay_ms(int ms) {
+  volatile int i;
+  volatile int j;
 
-	for(i=0;i<ms;i++){
-		for(j=0;j<100;j++){
+  for (i = 0; i < ms; i++) {
+    for (j = 0; j < 2963; j++) {
 
-		}
-	}
+    }
+  }
 }
 
+void main(void) {
+  volatile unsigned char output = 0x01;
 
-void main(void)
-{
-	volatile unsigned char output = 0x01;
+  PM1 = 0x00;  // P1全出力
+  P1 = ~output;  // P10 Low,P11-7 High
 
-	PM1=0x00;				// P1全出力
-	P1=~output;				// P10 Low,P11-7 High
+  while (1) {
+    if (output == 0x80) {  // P17のみHigh?
+      output = 0x01;  // P10のみHigh
+    } else {
+      output = (output << 1) & 0xff;  // P1出力左シフト
+    }
 
-	while (1){
-		if(output==0x80){	// P17のみHigh?
-			output = 0x01;	// P10のみHigh
-		}else{
-			output = (output << 1) & 0xff;	// P1出力左シフト
-		}
-
-		P1 = ~output;
-		delay_ms(100);		// 100ms wait
-	}
+    P1 = ~output;
+    delay_ms(100);  // 100ms wait
+  }
 }
 
